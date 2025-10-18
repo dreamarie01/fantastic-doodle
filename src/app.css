@@ -2,6 +2,31 @@
 
 @import "tw-animate-css";
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition-duration: 200ms;
+}
+
+body {
+    background: linear-gradient(to right, #000428, #000046);
+    color: white;
+    position: relative;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -118,4 +143,22 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+    background: linear-gradient(to right, #000428, #000046);
+    color: white;
+    position: relative;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+.poppins {
+    font-family: 'Poppins', sans-serif;
 }
